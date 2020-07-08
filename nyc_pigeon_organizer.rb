@@ -20,4 +20,7 @@ pigeon_data = {
 }
 
 def nyc_pigeon_organizer(data)
-  name_array = []
+  data.each_with_object do |key, value|
+    value.each do |key2, value2|
+      if !
+end
