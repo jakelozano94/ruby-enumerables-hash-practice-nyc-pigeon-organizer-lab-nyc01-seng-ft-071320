@@ -24,5 +24,8 @@ def nyc_pigeon_organizer(data)
     value.each do |key2, value2|
       if !final_array[name]
         final_array[name]= {}
+      end
+      if !final_array[name]
+        final_array[name] = 
         
 end
