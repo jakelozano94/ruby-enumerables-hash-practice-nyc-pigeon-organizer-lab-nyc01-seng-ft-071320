@@ -25,9 +25,11 @@ def nyc_pigeon_organizer(data)
   att_hash = []
   data.each do |key, value|
     att_hash << key
+    if value.each.has_value?(name_array(iter))
+      << value
   value.each do |key2, value2|
     name_array << value2
-   # if value.each.has_value?(name_array(iter))
+   if value.each.has_value?(name_array(iter))
       
 end
 end
