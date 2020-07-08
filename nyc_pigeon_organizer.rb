@@ -21,11 +21,14 @@ pigeon_data = {
 
 def nyc_pigeon_organizer(data)
   name_array = []
+  iter = 0
   att_hash = []
   data.each do |key, value|
     att_hash << key
   value.each do |key2, value2|
     name_array << value2
+   # if value.each.has_value?(name_array(iter))
+      
 end
 end
 name_hash = Hash[name_array.flatten.uniq.collect { |item|[item, att_hash]}]
